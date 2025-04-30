@@ -82,7 +82,7 @@ const urlRedirect = async (slug) => {
   }
 
   if (!result) {
-    return { status: 404, message: 'URL not found1' };
+    return { status: 404, message: 'URL not found' };
   }
   if (
     result.expiration &&
